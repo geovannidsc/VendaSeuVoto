@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    open-in-view: 'true'
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/vendaseuvoto?useSSL=false&serverTimezone=UTC
+    driverClassName: com.mysql.cj.jdbc.Driver
+    password: 123456
